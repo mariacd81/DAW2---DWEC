@@ -14,7 +14,7 @@ Asignarura: Desarrollo Web Entorno Cliente
  | Tema 7 | Almacenamiento |
  | Tema 8 | Ajax |
   
-## Usuarios 
+## Ejercicios 
 | Tema | Contenido  |
  | --- | ---|
  | Tema 0 | HTML - CSS |
