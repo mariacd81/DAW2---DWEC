@@ -1,0 +1,43 @@
+body{
+	margin: 0 auto;
+	width:1300px;
+	background-color:gray;
+	position: center;
+}
+section{
+	display: inline-block ;
+	margin:15px;
+}
+.formu{
+	background-color: #05A292;
+	padding:20px;
+	border-radius: 15px;
+}
+table{
+	background-color: #B52397;
+	border: 2px solid #B9B8B9;
+}
+nav ul li{
+	background-color: #B52397;
+	color: white;
+	display: inline-block ;
+	padding-right:90px;
+	padding-left:90px;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+h1{
+	color: #05A292;
+	text-align:center;
+}
+
+.lin{
+	color: #B52397;
+	border-bottom-style: dotted;
+	border-bottom-width: 4px;
+}
+
+footer{
+	text-align:center;
+	margin-top:30px;
+}

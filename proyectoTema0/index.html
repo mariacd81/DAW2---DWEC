@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="UTF-8">
+		<meta name="author" content="Nerea Álvarez Justel">
+		<meta name="application-name" content="DWEC">
+		<meta name="description" content="Práctica">
+		<meta name="keywords" content="Los sauces,web">
+	<!-- Recomendado 5 o 8 palabras clave, Cada palabra clave puede estar constituida por hasta 4 o 5 palabras. -->
+		<meta name="robots" content="index, follow" />
+
+		<title>HOME. Nerea Álvarez Justel</title>
+	<!-- CSS -->
+		<link href="css/estilos.css" rel="stylesheet" type="text/css">
+	<!-- Favicon -->
+		<link rel="icon" href="favicon.png" type="x-icon">
+	</head>
+
+	<body>
+		<div class="contenido">
+			<header>
+				<div class="lin">
+					<h1 class="title"> Matricula del curso</h1>
+				</div>
+				<nav class="segunda_header" id="menu">
+					<ul>
+						<li class="posicion">HOME</li>
+						<li>Oferta educativa</li>
+						<li>Tutorias</li>
+						<li>Horarios</li>
+						<li>Contacto</li>
+					</ul>
+				</nav>
+			</header>
+
+			<section>
+				<aside class="left_imagen"><a href="http://ieslossauces.centros.educa.jcyl.es/sitio/"><img src="images/fondo.png" alt="" width="500px" class="placeholder"/> </a></aside>
+			</section>
+			
+			<section class="formu">	
+				<form action="prueba.php" method="get">
+					<fieldset>
+						<legend>Datos Personales:</legend>
+							<div>
+								Nombre:
+									<input type="text" name="nom" placeholder="Escribe tu Nombre" maxlength="30" required><br>
+							</div>
+							<div>
+								Apellidos:
+									<input type="text" name="apell" placeholder="Escribe tus Apellidos" maxlength="30"><br>
+							</div>
+							
+							<div>
+								Correo Electrónico: <br>
+									<input type="mail" name="correo electronico"><br>
+							</div>
+							<div>	
+								Fecha de Nacimiento:
+									<input type="date" name="fecha" max="2000-11-8" min="1963-3-14"><br>
+							</div>
+					</fieldset>
+					
+					<fieldset>
+						<legend>Matricula:</legend>
+							<div>	
+								¿De que te matriculas?:
+								<p>
+									<input type="radio" name="genero" value="1º Cuerso"> 1º Cuerso
+								</p>
+								<p>
+									<input type="radio" name="genero" value="2º Cuerso"> 2º Cuerso
+								</p>							
+							</div>
+					</fieldset>
+					
+						<div>
+							<input type="submit" value="Aceptar">
+						</div>
+				</form>
+			</section>
+			
+			<section>
+				<table border="1">
+					<tr>
+						<th width=30% height="25">Curso</th>
+						<th width=80%>Asignaturas</th>
+					</tr> 
+					
+					<tr>
+						<th>
+							1ºCurso
+						</th>
+						<td>
+							<ul>
+							  <li>Redes Locales</li>
+								<li>Sistemas Operativos</li>
+								<li>Aplicaciones Web</li>
+								<li>Ofimatica</li>
+								<li>Fol</li>
+							</ul>
+						</td>						
+					</tr>
+					
+					<tr>
+						<th>
+							2ºCurso
+						</th>
+						<td>
+							<ul>
+							  <li>Montaje y mantenimiento</li>
+								<li>Sistema Operativos en Red</li>
+								<li>Servicios</li>
+								<li>Seguridad</li>
+								<li>Empresa</li>
+							</ul>
+						</td>						
+					</tr>
+				</table>
+			</section>
+
+			<footer class="segunda_header footer">
+				<div class="copyright">Contacto del Centro:
+					<p>Av. Federico Silva, 48, 49600 Benavente, Zamora</p>
+				</div>
+			</footer>
+		</div>
+	</body>
+
+</html>
